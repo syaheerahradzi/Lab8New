@@ -19,7 +19,7 @@ public class AlarmSoundService extends Service {
     public void onCreate() {
         super.onCreate();
         //Start media player
-        mediaPlayer = MediaPlayer.create(this, R.raw.r2d2);
+        mediaPlayer = MediaPlayer.create(this, R.raw.noti);
         mediaPlayer.start();
         mediaPlayer.setLooping(false);//set l1ooping true to run it infinitely
     }
